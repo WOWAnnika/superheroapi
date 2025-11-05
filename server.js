@@ -12,5 +12,5 @@ app.use(express.static(path.join(__dirname,'public')));
 app.use('/api',heroRoutes);
 
 app.listen(port, () => {
-    console.log(`Server kører på https://localhost:${port}`);
+    console.log(`Server kører på http://localhost:${port}`);
 })
