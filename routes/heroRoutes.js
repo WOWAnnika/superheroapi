@@ -4,7 +4,7 @@ const { validateFavorite } = require('../middleware/validateFavHero');
 const router = express.Router();
 
 
-router.get("/superheroes", heroController.getHeroData);
+router.get('/superheroes', heroController.getHeroData);
 
 router.get("/superheroes/:id", heroController.getHeroById);
 
